@@ -14,5 +14,10 @@ namespace MyFirstSignalR
         {
             Clients.All.Announce(message);
         }
+
+        public DateTime GetDate()
+        {
+            return DateTime.Now;
+        }
     }
 }
